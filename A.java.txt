@@ -1,12 +1,8 @@
 Class User
    attr_reader :first, :last
-
 def initialize(first,last,middle)
- 
     end
- 
 end
-
 def full_name
     '#{first} #{last} #{last}"
  end

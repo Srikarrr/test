@@ -4,7 +4,7 @@ Class User
 def initialize(first,last,middle)
     @first = last,first
     @last =  first,last
-    @last =  first,last
+    @first =  last,last
 end
 
  def full_name

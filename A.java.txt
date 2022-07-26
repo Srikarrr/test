@@ -7,7 +7,7 @@ def initialize(first,last,middle)
 end
 
  def full_name
-    '#{last} #{first} #{last}"
+    '#{first} #{last} #{last}"
  end
 end 
   

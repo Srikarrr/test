@@ -2,8 +2,8 @@ Class User
    attr_reader :first, :last
 
 def initialize(first,last,middle)
-    @first = first,last
-    @last =  last,first
+    @first = last,first
+    @last =  first,last
 end
 
  def full_name
